@@ -1,0 +1,200 @@
+@charset "ITF-8";
+
+:root {
+    --branco-quente: #F6F4F1;
+    --branco: #FFFFFF;
+    --bege-acizentado: #EDEAE5;
+    --preto-suave: #202020;
+    --cinza-escuro: #484848;
+    --cinza-medio: #686868;
+    --vermelho-logo: #ED1824;
+    --vermelho-escuro: #C5111C;
+    --cinza-claro: #D8D4CE;
+    --cinza-poro: #D0D0D0;
+}
+
+header {
+    height: 60px;
+    
+}
+
+.logo-cabecalho {
+    width: 150px;
+    height: auto;
+}
+
+.menu-hamburguer {
+    background-color: #dbd9d4;
+    
+}
+
+.header-2 {
+    height: 80px;
+    
+    margin-left: -12px;
+    width: 400px;
+    border-bottom: #c0bdbd 1px solid;
+    
+    
+}
+
+header > button > i {
+    font-size: 2em;
+}
+
+button.btn,
+button.btn:focus,
+button.btn:active {
+    border: none;
+    box-shadow: none;
+}
+
+.header-2 > button > i {
+    font-size: 1.5em;
+    
+}
+
+.header-2 > img {
+    width: 130px;
+    height: auto;
+}
+
+
+
+
+
+.links-hamburguer {
+    
+}
+
+.links-hamburguer > a {
+    text-decoration: none;
+    padding-top: 15px;
+    font-size: 1.5em;
+    padding-left: 25px;
+    color: #000000;
+    font-weight: 600;
+    padding-bottom: 15px;
+    border-bottom: #c0bdbd 1px solid;
+}
+
+.links-hamburguer > a:hover {
+    color:  #C5111C;
+}
+
+.orcamento {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #ED1824;
+    height: 70px;
+    padding-left: 45px;
+    border-bottom: #c0bdbd 1px solid;
+    
+    
+}
+
+.orcamento:hover {
+    background-color: #C5111C;
+}
+
+.orcamento > i {
+color: white;
+font-size: 2em;
+
+}
+
+.orcamento > a {
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    line-height: 20px;
+}
+
+.orcamento > a > span {
+    font-size: 0.6em;
+}
+
+
+.menu-hamburguer > p {
+    padding-top: 15px;
+    border-top: #c0bdbd 1px solid;
+}
+
+main {
+    background-color: var(--branco-quente);
+}
+
+.introducao {
+    
+}
+
+.texto {
+    width: 95%;
+}
+
+.orcamento-1 {
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+    background-color: #ED1824;
+    margin: auto;
+    margin-bottom: 10px;
+    
+}
+
+.orcamento-1:hover {
+    background-color: #C5111C;
+}
+
+.conhecer-projetos {
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+    border: rgb(0, 0, 0) 1px solid;
+    margin: auto;
+    
+    
+    
+}
+
+.conhecer-projetos:hover {
+    background-color: white;
+    
+}
+
+.projetos {
+    
+}
+
+
+.imagem-principal {
+    margin-top: 15px;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.img-projetos {
+    display: block;
+    width: 90%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 0 auto 15px;
+}
+
+.centralizacao-p {
+    position: relative;
+}
+
+.centralizacao-p > p {
+    position: absolute;
+    bottom: 7px;
+    margin: 0;
+    padding: 0;
+    left: 40px;
+    color: white;
+    font-weight: 500;
+    font-size: 1.2em;
+}

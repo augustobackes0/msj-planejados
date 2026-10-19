@@ -11,6 +11,14 @@
     --vermelho-escuro: #C5111C;
     --cinza-claro: #D8D4CE;
     --cinza-poro: #D0D0D0;
+
+
+    color-scheme: only light;
+}
+
+body {
+    background-color: #ffffff !important;
+    color: #1a1a1a !important;
 }
 
 header {
@@ -59,14 +67,6 @@ button.btn:active {
     height: auto;
 }
 
-
-
-
-
-.links-hamburguer {
-    
-}
-
 .links-hamburguer > a {
     text-decoration: none;
     padding-top: 15px;
@@ -80,6 +80,14 @@ button.btn:active {
 
 .links-hamburguer > a:hover {
     color:  #C5111C;
+}
+h1 {
+    font-size: 2.3em;
+    padding-top: 10px;
+}
+
+.texto > p {
+    font-size: 1.1em;
 }
 
 .orcamento {
@@ -125,10 +133,6 @@ main {
     background-color: var(--branco-quente);
 }
 
-.introducao {
-    
-}
-
 .texto {
     width: 95%;
 }
@@ -140,11 +144,18 @@ main {
     background-color: #ED1824;
     margin: auto;
     margin-bottom: 10px;
+    font-size: 1.3em;
     
 }
 
 .orcamento-1:hover {
     background-color: #C5111C;
+}
+
+.orcamento-1 > i {
+    color: white;
+    font-size: 1.2em;
+    
 }
 
 .conhecer-projetos {
@@ -153,6 +164,7 @@ main {
     color: black;
     border: rgb(0, 0, 0) 1px solid;
     margin: auto;
+    font-size: 1.3em;
     
     
     
@@ -162,11 +174,6 @@ main {
     background-color: white;
     
 }
-
-.projetos {
-    
-}
-
 
 .imagem-principal {
     margin-top: 15px;
@@ -197,4 +204,19 @@ main {
     color: white;
     font-weight: 500;
     font-size: 1.2em;
+}
+
+.sobre-nos > img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.icones-sobre-nos {
+    color: red;
+    background-color: #e4dede;
+    font-size: 1.7em;
+    padding: 6px 12px;
+    border-radius: 50%;
+    margin-right: 20px;
 }
